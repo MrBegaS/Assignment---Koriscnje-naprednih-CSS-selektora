@@ -1,0 +1,59 @@
+    a[href^="https://www.google.com/"] {
+        color: green;
+    }
+
+    a[target="_blank"] {
+        color: red;
+    }
+
+    #first-div p:nth-child(2)::after {
+        content: "-NEW"; 
+        color: yellow;
+    
+    }#first-div p:nth-child(3)::after  {
+        content: "-NEW"; 
+        color: yellow;
+    
+    }
+       
+    #second-div p:nth-child(2)  {
+        color: red;
+        
+        
+    }
+    #second-div p:nth-child(2)::after  {
+        content: ""; 
+        
+        
+    }
+    #second-div p:nth-child(3)::after  {
+        content: ""; 
+        
+        
+    }
+    #second-div p:nth-child(3) {
+        color: blue;
+            
+    }
+    #second-div p:nth-child(4) {
+        color: red;
+                
+    }#second-div p:nth-child(5) {
+        color: blue;
+                    
+    }#second-div p:nth-child(6) {
+        color: red;
+                        
+    }
+
+    p:nth-child(8):hover {
+        font-style: italic;
+    }
+
+
+
+  
+ 
+
+
+
